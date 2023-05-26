@@ -1,5 +1,5 @@
 .header {
-  background-color: 0.333333;
+  background-color: #333333;
 }
 .header .top-header {
   padding: 10px 0;
@@ -27,6 +27,14 @@
 .header .middle-header .logo img {
   width: 200px;
   margin-left: -12px;
+}
+.header .middle-header .search form {
+  display: flex;
+  justify-content: center;
+}
+.header .middle-header .search form .form-input input [type=search] {
+  width: 100%;
+  min-width: 70%;
 }
 
 /*# sourceMappingURL=style.css.map */

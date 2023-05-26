@@ -1,6 +1,5 @@
-$border: #ffffff1a;
 .header {
-    background-color: .333333;
+    background-color: #333333;
     .top-header {
         padding: 10px 0;
         .top-header-left {
@@ -32,12 +31,27 @@ $border: #ffffff1a;
         }
     }
     .middle-header {
-        border-top: 1px solid $border;
-        border-bottom: 1px solid $border;
+        border-top: 1px solid #ffffff1a;
+        border-bottom: 1px solid #ffffff1a;
         .logo {
             img {
                 width: 200px;
                 margin-left: -12px;
+            }
+        }
+        .search {
+            form {
+                display: flex;
+                justify-content: center;
+                .form-input {
+                    input [type = "search"] {
+                        width: 100%;
+                        min-width: 70%;
+                    }
+                }
+                .form-input {
+                    button [type = "submit"] {}
+                }
             }
         }
     }
