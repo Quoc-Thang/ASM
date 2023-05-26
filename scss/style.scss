@@ -1,0 +1,44 @@
+$border: #ffffff1a;
+.header {
+    background-color: .333333;
+    .top-header {
+        padding: 10px 0;
+        .top-header-left {
+            .contact {
+                .inf-contact {
+                    .inf-items {
+                        display: flex;
+                        gap: 5px;
+                        font-size: 14px;
+                        color: #fff;
+                        .phone-call {
+                            color: #fff;
+                        }
+                    }
+                    &:first-child {
+                        margin-right: 20px;
+                    }
+                }
+            }
+        }
+        .top-header-right {
+            .social-media {
+                .list-item {
+                    display: flex;
+                    gap: 10px;
+                    .icon-items {}
+                }
+            }
+        }
+    }
+    .middle-header {
+        border-top: 1px solid $border;
+        border-bottom: 1px solid $border;
+        .logo {
+            img {
+                width: 200px;
+                margin-left: -12px;
+            }
+        }
+    }
+}

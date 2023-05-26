@@ -1,0 +1,32 @@
+.header {
+  background-color: 0.333333;
+}
+.header .top-header {
+  padding: 10px 0;
+}
+.header .top-header .top-header-left .contact .inf-contact .inf-items {
+  display: flex;
+  gap: 5px;
+  font-size: 14px;
+  color: #fff;
+}
+.header .top-header .top-header-left .contact .inf-contact .inf-items .phone-call {
+  color: #fff;
+}
+.header .top-header .top-header-left .contact .inf-contact:first-child {
+  margin-right: 20px;
+}
+.header .top-header .top-header-right .social-media .list-item {
+  display: flex;
+  gap: 10px;
+}
+.header .middle-header {
+  border-top: 1px solid rgba(255, 255, 255, 0.1019607843);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1019607843);
+}
+.header .middle-header .logo img {
+  width: 200px;
+  margin-left: -12px;
+}
+
+/*# sourceMappingURL=style.map */
