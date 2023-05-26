@@ -1,3 +1,5 @@
+
+$main-color: #c89979;
 .header {
     background-color: #333333;
     .top-header {
@@ -44,13 +46,40 @@
                 display: flex;
                 justify-content: center;
                 .form-input {
-                    input [type = "search"] {
+                    width: 100%;
+                    input[type="search"] {
                         width: 100%;
-                        min-width: 70%;
+                        max-width: 70%;
+                        padding-left: 0.75em;
+                        height: 3em;
+                        outline: none;
+                        border-top-left-radius: 5px;
+                        border-bottom-left-radius: 5px;
+                        float: right;
+                        border: 1px solid #ddd;
+                        &:focus {
+                            box-shadow: 0 0 5px #ccc;
+                            opacity: 1 !important;
+                            outline: 0;
+                            color: #333;
+                            background-color: #fff;
+                        }
                     }
                 }
-                .form-input {
-                    button [type = "submit"] {}
+                .form-button {
+                    .submit-button {
+                        min-height: 3em;
+                        min-width: 5em;
+                        border-top-right-radius: 5px;
+                        border-bottom-right-radius: 5px;
+                        margin: 0;
+                        background: $main-color;
+                        outline: none;
+                        border: none;
+                        &:hover {
+                            cursor: pointer;
+                        }
+                    }
                 }
             }
         }
